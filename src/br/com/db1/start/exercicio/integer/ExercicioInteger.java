@@ -55,7 +55,7 @@ public class ExercicioInteger {
 	}
 	
 	public void numerosImparesAte100(Integer valor){
-		for(valor = valor; valor < 100; valor = valor + 2){
+		for(Integer contador = valor; contador < 100; contador += 2){
 			System.out.println(valor.toString());
 		}
 	}
